@@ -39,7 +39,6 @@ jekyll serve --config ./src/_config.yml,./src/_config_local.yml --watch --source
 #### デプロイ時の場合
 
 rake ファイルに下記のようなrsyncを書いてデプロイしています。
-githubのpushトリガーうんぬんやりたいです。
 
 ~~~ ruby
 task :deploy do
