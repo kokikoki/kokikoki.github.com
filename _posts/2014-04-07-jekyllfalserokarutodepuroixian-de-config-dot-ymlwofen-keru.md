@@ -4,7 +4,7 @@ title: "jekyllのローカル確認時とデプロイ時で_config.ymlを分け�
 modified: 2014-04-07 15:06:53 +0900
 tags: [jekyll]
 image:
-  feature: default_feature.jpg
+  feature:
   credit: 
   creditlink: 
 comments: true
@@ -16,7 +16,7 @@ share: true
 
 <http://jekyllrb.com/docs/configuration/>
 
-Build Command Optionsに書いてある通り ---config オプションを指定してカンマ区切りで複数ファイルを指定できます。
+Build Command Optionsに書いてある通り `--config` オプションを指定してカンマ区切りで複数ファイルを指定できます。
 
 #### ローカルで確認する場合
 
@@ -30,7 +30,7 @@ port: 8888
 ~~~
 
 jk_serve.shを作成します。
-ここで、---config 指定をして複数ファイルしています。
+ここで、`--config` 指定をして複数ファイルしています。
 
 ~~~ bash
 jekyll serve --config ./src/_config.yml,./src/_config_local.yml --watch --source ./src/ --destination ./html

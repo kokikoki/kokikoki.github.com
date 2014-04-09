@@ -1,3 +1,6 @@
+
+p,li,td,dd,th,td,pre{ -ms-line-break: strict; line-break: strict; -ms-word-break: break-strict; word-break: break-strict; }
+
 .feature .header-title { height: 300px; }
 .entry-image { min-height: 300px; }
 
@@ -6,7 +9,10 @@
     font-size: 0.9375rem;
     line-height: 1.75;
     color: #555;
+    word-wrap: break-word;
 }
+
+
 @media only screen and (min-width: 48em) {
     .entry-content {
         font-size: 17px;
@@ -15,8 +21,10 @@
 }
 @media only screen and (min-width: 62.5em) {
     .entry-content {
-        font-size: 21px;
-        font-size: 1.33333rem;
+        /*font-size: 21px;*/
+        /*font-size: 1.33333rem;*/
+        font-size: 17px;
+        font-size: 1.0625rem;
     }
 }
 
@@ -36,8 +44,10 @@
 @media only screen and (min-width: 62.5em) {
     #post .entry-content > p:first-child,
     #page .entry-content > p:first-child {
-        font-size: 21px;
-        font-size: 1.33333rem;
+/*        font-size: 21px;
+        font-size: 1.33333rem;*/
+        font-size: 17px;
+        font-size: 1.0625rem;
     }
 }
 

@@ -4,7 +4,7 @@ title: "チョコをプレゼントしてみた"
 modified: 2014-04-07 21:47:38 +0900
 tags: [daily]
 image:
-  feature: default_feature.jpg
+  feature:
   credit: 
   creditlink: 
 comments: true

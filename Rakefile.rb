@@ -35,7 +35,7 @@ task :new_post, :title do |t, args|
     post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "tags: [#{tags}]"
     post.puts "image:"
-    post.puts "  feature: default_feature.jpg"
+    post.puts "  feature: "
     post.puts "  credit: "
     post.puts "  creditlink: "
     post.puts "comments: true"
